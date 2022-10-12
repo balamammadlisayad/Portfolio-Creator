@@ -1,0 +1,81 @@
+
+@media(max-width:768px) and (min-width:376px) {
+    .header {
+        display: flex;
+        width: 100%;
+     }
+
+    
+
+    .design-text {
+        flex-basis: 100%;
+        text-align: center;
+        padding-right: 70px;
+    }
+
+    .trusted-by {
+        transform: translateY(250%);
+    }
+    
+    .reklamlar img {
+        width: 120px;
+    }
+    .services {
+        transform: translateY(100%);
+    }
+
+    .services h1 {
+        font-size: 36px !important;
+    }
+
+    .projects {
+        transform: translateY(95%);
+    }
+    
+    .text-and-btn button {
+        transform: translateX(30px);
+    }
+
+    .left-right button {
+        transform: translateY(1000%);
+    }
+    .blogs {
+        transform: translateY(80%);
+    }
+   
+   
+   .card-top {
+    width: 220px;
+   }
+   
+   .branding {
+        width: 100%;
+        padding-left: 8%;
+   }
+   .product-designer {
+        transform: translateY(180%);
+    }
+   
+    .education {
+        transform: translateY(200%);
+    }
+   
+    .testimonials {
+        transform: translateY(90%);
+    }
+    
+    .faq {
+        transform: translateY(100%);
+    }
+   
+    .ready-to-make{
+        transform: translateY(100%);
+    }
+
+    .blogs {
+        margin-top: -300px;
+    }
+
+}
+
+  

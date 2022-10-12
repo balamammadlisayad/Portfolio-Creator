@@ -1,0 +1,866 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('./tablet.css');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.dot {
+    width: 4px;
+    height: 4px;
+    background: linear-gradient(89.94deg, #B16CEA -21.68%, #FF5E69 47.38%, #FF8A56 99.43%, #FFA84B 132.45%);
+}
+
+.logo-section {
+    display: flex;
+    align-items: baseline;
+    padding-left: 100px;
+}
+
+.nav-links a {
+    color: #000;
+    padding: 25px;
+}
+
+body {
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.header a {
+    cursor: pointer;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.products-section {
+    display: flex;
+    height: 485px;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.design-text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 400px;
+    padding-left: 70px;
+    margin-top: 50px;
+
+}
+
+.bar-icon {
+    display: none;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+
+.book-a-call button ,
+.reklam ,
+.text-and-btn button{
+    cursor: pointer;
+}
+
+.book-a-call button:hover ,
+.text-and-btn button:hover {
+    box-shadow: 5px 5px 5px gray;
+}
+
+.design-img {
+    position: relative;
+    height: 595px;
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.design-img img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 15%;
+    left: 20%;
+}
+
+.design-text h1 {
+    font-size: 72px;
+    transform: translateY(10%);
+}
+
+.design-text span {
+    font-size: 4em;
+    font-weight: 500;
+}
+
+.cards > .card h4 {
+    font-size: 18px !important;
+}
+
+.cards > .card small {
+    font-size: 14px !important;
+}
+
+
+.design-text small {
+    font-size: 16px;
+    color: #666666;
+}
+
+.book-a-call button {
+    height: 50px;
+    width: 130px;
+    color: #fff;
+    background-color: #000;
+}
+
+.book-a-call a {
+    width: 123px;
+    height: 18px;
+    color: #000;
+    padding-left: 30px;
+    font-size: 18px;
+}
+
+.trusted-by {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20%;
+}
+
+.reklamlar {
+    display: flex;
+    gap: 80px;
+}
+
+.trusted-by span {
+    font-size: 18px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.services > h4 {
+    font-size: 22px;
+    font-weight: 800;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF5E69;
+}
+
+.services h1 {
+    font-weight: 700;
+    font-size: 54px;
+    letter-spacing: 1px;
+    line-height: 59.4px;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 10%;
+}
+
+.services > h1,
+.services > h4 {
+   text-align: center;
+   padding: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 6%;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 320px;
+    height: 380px;
+}
+
+.card h4 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    padding: 20px 0 15px 25px;
+}
+
+.card small {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666;
+    padding-left: 25px;
+}
+
+.card li {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    padding: 5px;
+}
+
+.card img {
+    width: 70px;
+    transform: translateX(20px);
+}
+
+.card:hover {
+    box-shadow: 5px 10px 10px rgb(206, 206, 206);
+}
+
+.projects > pre {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #b16cea;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+    padding-left: 8%;
+}
+
+.text-and-btn {
+    padding: 0 40px;
+}
+
+.text-and-btn pre {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59.4px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-and-btn button {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    width: 201px;
+    height: 58px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.text-and-btn {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8%;
+}
+
+.branding {
+    display: flex;
+    gap: 25px;
+    z-index: 3;
+    padding-left: 8%;
+}
+
+.card-bottom {
+    height: 164px;
+    width: 486px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.card-topp {
+    width: 376px;
+}
+
+.card-bottomm {
+    height: 164px;
+    width: 376px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px 0;
+    background-color: #fff;
+}
+
+.card-bottom small,
+.card-bottomm small {
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 4px;
+    line-height: 14px;
+    color: #3c46ff;
+    padding-left: 50px;
+}
+
+.card-bottom h3,
+.card-bottomm h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26.4px;
+    padding-left: 50px;
+}
+
+.card-bottom a,
+.card-bottomm a {
+    color: #000;
+    font-size: 18px; 
+    font-weight: 400;
+    padding-left: 50px;
+}
+
+.left-right button {
+    transform: translateY(40px);
+    width: 54px;
+    height: 54px;
+    background-color: #fff;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.left-right :hover {
+    box-shadow: 1px 1px 1px #ffffff;
+}
+
+.left-right {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    padding-right: 60px ;
+}
+
+.blogs {
+    width: 100%;
+    height: 1440px;
+    background-color: #000;
+    margin-top: -218px;
+    display: flex;
+}
+
+.blogs > .left-side {
+    padding-top: 300px;
+    width: 45%;
+    height: 38%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.blogs > .right-side {
+    width: 40%;
+    height: 100%;
+    padding-top: 320px;
+}
+
+.left-side small {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 4px;
+    color: #FFA84B;
+    padding-left: 100px;
+}
+
+.left-side h4 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59.4px;
+    letter-spacing: 1px;
+    color: #fff;
+    padding-left: 98px;
+}
+
+.left-side a {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 18px;
+    color: #fff;
+    padding-left: 100px;
+}
+
+.design-tips small ,
+.how-to-build small , 
+.top-free small ,
+.logo-design small , 
+.best-UI small {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 16px;
+    color: rgb(175, 175, 175);
+}
+
+.design-tips h4 ,
+.how-to-build h4 , 
+.top-free h4 ,
+.logo-design h4 , 
+.best-UI h4 {
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    color: #fff;
+    padding: 25px 0px;
+}
+
+.design-tips a ,
+.how-to-build a , 
+.top-free a ,
+.logo-design a , 
+.best-UI a {
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+}
+
+.right-side-text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.design-tips ,
+.how-to-build , 
+.top-free ,
+.logo-design , 
+.best-UI {
+    border-bottom: 1px solid rgb(122, 122, 122);
+    padding-bottom: 30px;
+}
+
+.product-designer > pre {
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #FF5E69;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5.5%;
+}
+
+.thats-me h4 {
+    font-size: 50px;
+    font-weight: 750;
+    letter-spacing: 1px;
+    color: #000;
+    padding-top: 1%;
+}
+
+.thats-me h5 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #666;
+    font-weight: 400;
+}
+
+.thats-me {
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-designer {
+    padding-top: 12%;
+    width: 100%;
+}
+
+.wallet > .left-side {
+    width: 33.3%;
+}
+
+.wallet > .right-side {
+    width: 33.3%;
+    height: 626px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.wallet > .main-side {
+    width: 33.3%;
+    height: 100%;
+}
+
+.product-designer > .wallet {
+    display: flex;
+    padding-top: 70px;
+}
+
+.wallet > .left-side img {
+    padding-left: 155px;
+}
+
+.wallet > .right-side img {
+    padding-left: 15px;
+    width: 338px;
+    height: 305px;
+}
+
+.education {
+    transform: translateX(13%);
+    display: flex;
+    justify-content: space-between;
+    width: 1194px;
+    height: 663px;
+    padding-top: 14%;
+}
+
+.education img {
+    transform: translateY(-50px);
+}
+
+.education > .left-part {
+    width: 48%;
+}
+
+.education > .right-part {
+    width: 48%;
+}
+
+.left-text > .first-line ,
+.text > .first-line {
+    font-size: 24px;
+    line-height: 26.4px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.left-text > .second-line ,
+.text > .second-line  {
+    font-weight: 400;
+    font-size: 16px;
+    color: #00000099;
+    padding: 15px 50px 0 0;
+}
+
+.right-part > .right-text {
+    display: flex;
+    align-items: center;
+}
+
+.left-part > .left-text ,
+.right-part > .right-text {
+    border-bottom: 1px solid rgb(224, 224, 224);
+    padding-bottom: 30px;
+}
+
+.right-text > .text {
+    width: 100%;
+    padding-left: 20px;
+}
+
+.left-text > .second-line ,
+.text > .second-line {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.education small ,
+.education span ,
+.education svg {
+    cursor: pointer;
+}
+
+.education small:hover ,
+.education span:hover {
+    text-decoration: underline;
+}
+
+.testimonials span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #4353FF;
+    padding: 40px 0 40px 90px ;
+}
+
+.testimonials h4 {
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59.4px;
+    letter-spacing: 1px;
+    padding: 0 0 80px 85px;
+}
+
+.jade-helped h4 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46.8px;
+}
+
+.john pre {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 85px;
+}
+
+.john h2 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 15px;
+    color: #000;
+}
+
+.john-franklin button {
+    width: 54px;
+    height: 54px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    margin: -2.5px;
+}
+
+.john-franklin button:hover {
+    box-shadow: 1px 3px 3px gray;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 10%;
+}
+
+.testimonials-main {
+    display: flex;
+    justify-content: space-around;
+}
+
+.john {
+    display: flexbox;
+    flex-direction: column;
+}
+
+.testimonials-main > .right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.john-franklin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.faq {
+    width: 100%;
+    height: 800px;
+    background-color: #000;
+    padding-top: 2%;
+}
+
+.faq h2 {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 4px;
+    color: #FF8A56;
+    text-align: center;
+    padding-top: 4%;
+    
+}
+
+.faq h4 {
+    font-family: Roboto;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #fff;
+    padding-top: 2%;
+}
+
+.faq h3 {
+    font-family: Roboto;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0.30000001192092896px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.faq h3:hover {
+    text-decoration: underline;
+}
+
+.questions svg{
+    cursor: pointer;
+}
+
+.questions {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-top: 5%;
+}
+
+.questions > .left-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.questions > .right-side {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid rgb(40, 40, 40);
+    padding: 60px 0 50px 0;
+}
+
+.ready-to-make pre{
+    font-family: Roboto;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.5px;
+    text-align: left;
+    color: #3c46ff;
+}
+
+.ready-to-make h4 {
+    letter-spacing: 1px;
+    color: #fff;
+}
+
+.ready-to-make {
+    width: 100%;
+    background-color: #000;
+    padding-top: 18%;
+    padding-left: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.delaware-avenue small ,
+.delaware-avenue a {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #666666;
+}
+
+.pound {
+    width: 3.73px;
+    height: 3.73px;
+    background: linear-gradient(89.94deg, #B16CEA -21.68%, #FF5E69 47.38%, #FF8A56 99.43%, #FFA84B 132.45%);
+}
+
+.portfolio-creator {
+    display: flex;
+    align-items: baseline;
+}
+
+.column h5 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #fff;
+}
+
+.footer small ,
+.footer span {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #8A95AD;
+}
+
+.ready-to-make > .main {
+    display: flex;
+    padding-top: 6%;
+}
+
+.delaware-avenue ,
+.about {
+    width: 50%;
+}
+
+.about {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about h5 ,
+.footer small {
+    cursor: pointer;
+}
+
+.about h5:hover ,
+.footer small:hover{
+    text-decoration: underline;
+}
+
+.about > .column {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.footer {
+    display: flex;
+    padding:20px 0px;
+    gap: 10px;
+    padding-top: 8%;
+}
+
+.delaware-avenue {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media(max-width:768px) {
+    .bar-icon{
+        display: flex;
+    }
+    .nav-links{
+        display: none;
+    }
+}
